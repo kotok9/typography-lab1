@@ -1,0 +1,146 @@
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Базовые настройки */
+body {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #1A1A1A;
+    background-color: #FAFAFA;
+}
+
+/* Навигация */
+.header {
+    background-color: white;
+    border-bottom: 2px solid #DADADA;
+}
+
+.nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.nav a {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #4A4A4A;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+
+.nav a:hover,
+.nav a.active {
+    color: #2C5F8D;
+    border-bottom: 3px solid #2C5F8D;
+}
+
+/* Основной контент */
+.main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 30px;
+}
+
+.article {
+    background-color: white;
+    padding: 60px;
+    border-radius: 4px;
+}
+
+/* Заголовки */
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 56px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* Абзацы */
+p {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Вводный текст */
+.lead {
+    font-size: 22px;
+    color: #4A4A4A;
+    font-style: italic;
+    margin-bottom: 50px;
+    border-left: 4px solid #2C5F8D;
+    padding-left: 30px;
+}
+
+/* Секции */
+.section {
+    margin-bottom: 60px;
+}
+
+/* Врезки */
+.callout {
+    background-color: #F0F4F8;
+    border-left: 5px solid #2C5F8D;
+    padding: 15px 30px;
+    margin: 25px 0;
+}
+
+.callout p {
+    margin-bottom: 0;
+    text-align: left;
+}
+
+/* Цитаты */
+.quote {
+    background-color: #FFF9E6;
+    border-left: 5px solid #E6D89A;
+    padding: 15px 30px;
+    margin: 25px 0;
+}
+
+.quote blockquote p {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.quote cite {
+    display: block;
+    font-size: 16px;
+    color: #4A4A4A;
+    text-align: right;
+    font-family: Arial, sans-serif;
+}
+
+/* Футер */
+.footer {
+    max-width: 1200px;
+    margin: 60px auto 0;
+    padding: 40px 30px;
+    text-align: center;
+    color: #4A4A4A;
+    font-size: 14px;
+    border-top: 1px solid #DADADA;
+}
